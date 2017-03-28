@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		555029011B664FF300E69B71 /* tuboAbajo.png in Resources */ = {isa = PBXBuildFile; fileRef = 555028FF1B664FF300E69B71 /* tuboAbajo.png */; };
+		555029021B664FF300E69B71 /* tuboArriba.png in Resources */ = {isa = PBXBuildFile; fileRef = 555029001B664FF300E69B71 /* tuboArriba.png */; };
+		555029041B6652BE00E69B71 /* pig2.png in Resources */ = {isa = PBXBuildFile; fileRef = 555029031B6652BE00E69B71 /* pig2.png */; };
+		55706F741B664DEF007A8D15 /* nubesAbajo.png in Resources */ = {isa = PBXBuildFile; fileRef = 55706F721B664DEF007A8D15 /* nubesAbajo.png */; };
+		55706F751B664DEF007A8D15 /* nubesArriba.png in Resources */ = {isa = PBXBuildFile; fileRef = 55706F731B664DEF007A8D15 /* nubesArriba.png */; };
+		558B19161B626E0E00183D72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 558B19151B626E0E00183D72 /* main.m */; };
+		558B19191B626E0E00183D72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 558B19181B626E0E00183D72 /* AppDelegate.m */; };
+		558B191C1B626E0E00183D72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 558B191B1B626E0E00183D72 /* ViewController.m */; };
+		558B191F1B626E0E00183D72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558B191D1B626E0E00183D72 /* Main.storyboard */; };
+		558B19211B626E0E00183D72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558B19201B626E0E00183D72 /* Images.xcassets */; };
+		558B19241B626E0E00183D72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 558B19221B626E0E00183D72 /* LaunchScreen.xib */; };
+		558B19301B626E0E00183D72 /* Floating_PigTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 558B192F1B626E0E00183D72 /* Floating_PigTests.m */; };
+		558B193C1B62727700183D72 /* pig.png in Resources */ = {isa = PBXBuildFile; fileRef = 558B193A1B62727700183D72 /* pig.png */; };
+		558B193D1B62727700183D72 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 558B193B1B62727700183D72 /* background.png */; };
+		558B19431B6278D400183D72 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 558B19421B6278D400183D72 /* Game.m */; };
+		558B19451B628BE800183D72 /* logo_ivan.png in Resources */ = {isa = PBXBuildFile; fileRef = 558B19441B628BE800183D72 /* logo_ivan.png */; };
+		558B19471B628F8900183D72 /* titulo.png in Resources */ = {isa = PBXBuildFile; fileRef = 558B19461B628F8900183D72 /* titulo.png */; };
+		558B19491B6292E100183D72 /* botonJugar.png in Resources */ = {isa = PBXBuildFile; fileRef = 558B19481B6292E100183D72 /* botonJugar.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		558B192A1B626E0E00183D72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 558B19081B626E0D00183D72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 558B190F1B626E0D00183D72;
+			remoteInfo = "Floating Pig";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		555028FF1B664FF300E69B71 /* tuboAbajo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tuboAbajo.png; path = pictures/tuboAbajo.png; sourceTree = "<group>"; };
+		555029001B664FF300E69B71 /* tuboArriba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tuboArriba.png; path = pictures/tuboArriba.png; sourceTree = "<group>"; };
+		555029031B6652BE00E69B71 /* pig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pig2.png; path = pictures/pig2.png; sourceTree = "<group>"; };
+		55706F721B664DEF007A8D15 /* nubesAbajo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nubesAbajo.png; path = pictures/nubesAbajo.png; sourceTree = "<group>"; };
+		55706F731B664DEF007A8D15 /* nubesArriba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nubesArriba.png; path = pictures/nubesArriba.png; sourceTree = "<group>"; };
+		558B19101B626E0D00183D72 /* Floating Pig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Floating Pig.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		558B19141B626E0E00183D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558B19151B626E0E00183D72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		558B19171B626E0E00183D72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		558B19181B626E0E00183D72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		558B191A1B626E0E00183D72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		558B191B1B626E0E00183D72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		558B191E1B626E0E00183D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		558B19201B626E0E00183D72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		558B19231B626E0E00183D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		558B19291B626E0E00183D72 /* Floating PigTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Floating PigTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		558B192E1B626E0E00183D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558B192F1B626E0E00183D72 /* Floating_PigTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Floating_PigTests.m; sourceTree = "<group>"; };
+		558B193A1B62727700183D72 /* pig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pig.png; path = pictures/pig.png; sourceTree = "<group>"; };
+		558B193B1B62727700183D72 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = pictures/background.png; sourceTree = "<group>"; };
+		558B19411B6278D400183D72 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		558B19421B6278D400183D72 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
+		558B19441B628BE800183D72 /* logo_ivan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_ivan.png; path = pictures/logo_ivan.png; sourceTree = "<group>"; };
+		558B19461B628F8900183D72 /* titulo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = titulo.png; path = pictures/titulo.png; sourceTree = "<group>"; };
+		558B19481B6292E100183D72 /* botonJugar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = botonJugar.png; path = pictures/botonJugar.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		558B190D1B626E0D00183D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		558B19261B626E0E00183D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		558B19071B626E0D00183D72 = {
+			isa = PBXGroup;
+			children = (
+				558B19121B626E0D00183D72 /* Floating Pig */,
+				558B192C1B626E0E00183D72 /* Floating PigTests */,
+				558B19111B626E0D00183D72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		558B19111B626E0D00183D72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				558B19101B626E0D00183D72 /* Floating Pig.app */,
+				558B19291B626E0E00183D72 /* Floating PigTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		558B19121B626E0D00183D72 /* Floating Pig */ = {
+			isa = PBXGroup;
+			children = (
+				558B19391B62705E00183D72 /* pictures */,
+				558B19171B626E0E00183D72 /* AppDelegate.h */,
+				558B19181B626E0E00183D72 /* AppDelegate.m */,
+				558B191A1B626E0E00183D72 /* ViewController.h */,
+				558B191B1B626E0E00183D72 /* ViewController.m */,
+				558B19411B6278D400183D72 /* Game.h */,
+				558B19421B6278D400183D72 /* Game.m */,
+				558B191D1B626E0E00183D72 /* Main.storyboard */,
+				558B19201B626E0E00183D72 /* Images.xcassets */,
+				558B19221B626E0E00183D72 /* LaunchScreen.xib */,
+				558B19131B626E0E00183D72 /* Supporting Files */,
+			);
+			path = "Floating Pig";
+			sourceTree = "<group>";
+		};
+		558B19131B626E0E00183D72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				558B19141B626E0E00183D72 /* Info.plist */,
+				558B19151B626E0E00183D72 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		558B192C1B626E0E00183D72 /* Floating PigTests */ = {
+			isa = PBXGroup;
+			children = (
+				558B192F1B626E0E00183D72 /* Floating_PigTests.m */,
+				558B192D1B626E0E00183D72 /* Supporting Files */,
+			);
+			path = "Floating PigTests";
+			sourceTree = "<group>";
+		};
+		558B192D1B626E0E00183D72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				558B192E1B626E0E00183D72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		558B19391B62705E00183D72 /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				555028FF1B664FF300E69B71 /* tuboAbajo.png */,
+				555029001B664FF300E69B71 /* tuboArriba.png */,
+				55706F721B664DEF007A8D15 /* nubesAbajo.png */,
+				55706F731B664DEF007A8D15 /* nubesArriba.png */,
+				558B19481B6292E100183D72 /* botonJugar.png */,
+				558B19461B628F8900183D72 /* titulo.png */,
+				558B19441B628BE800183D72 /* logo_ivan.png */,
+				558B193A1B62727700183D72 /* pig.png */,
+				555029031B6652BE00E69B71 /* pig2.png */,
+				558B193B1B62727700183D72 /* background.png */,
+			);
+			name = pictures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		558B190F1B626E0D00183D72 /* Floating Pig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 558B19331B626E0E00183D72 /* Build configuration list for PBXNativeTarget "Floating Pig" */;
+			buildPhases = (
+				558B190C1B626E0D00183D72 /* Sources */,
+				558B190D1B626E0D00183D72 /* Frameworks */,
+				558B190E1B626E0D00183D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Floating Pig";
+			productName = "Floating Pig";
+			productReference = 558B19101B626E0D00183D72 /* Floating Pig.app */;
+			productType = "com.apple.product-type.application";
+		};
+		558B19281B626E0E00183D72 /* Floating PigTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 558B19361B626E0E00183D72 /* Build configuration list for PBXNativeTarget "Floating PigTests" */;
+			buildPhases = (
+				558B19251B626E0E00183D72 /* Sources */,
+				558B19261B626E0E00183D72 /* Frameworks */,
+				558B19271B626E0E00183D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				558B192B1B626E0E00183D72 /* PBXTargetDependency */,
+			);
+			name = "Floating PigTests";
+			productName = "Floating PigTests";
+			productReference = 558B19291B626E0E00183D72 /* Floating PigTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		558B19081B626E0D00183D72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ivan Da Palma";
+				TargetAttributes = {
+					558B190F1B626E0D00183D72 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = S755L2L5RH;
+					};
+					558B19281B626E0E00183D72 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 558B190F1B626E0D00183D72;
+					};
+				};
+			};
+			buildConfigurationList = 558B190B1B626E0D00183D72 /* Build configuration list for PBXProject "Floating Pig" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 558B19071B626E0D00183D72;
+			productRefGroup = 558B19111B626E0D00183D72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				558B190F1B626E0D00183D72 /* Floating Pig */,
+				558B19281B626E0E00183D72 /* Floating PigTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		558B190E1B626E0D00183D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555029021B664FF300E69B71 /* tuboArriba.png in Resources */,
+				55706F751B664DEF007A8D15 /* nubesArriba.png in Resources */,
+				558B19471B628F8900183D72 /* titulo.png in Resources */,
+				555029041B6652BE00E69B71 /* pig2.png in Resources */,
+				558B191F1B626E0E00183D72 /* Main.storyboard in Resources */,
+				55706F741B664DEF007A8D15 /* nubesAbajo.png in Resources */,
+				555029011B664FF300E69B71 /* tuboAbajo.png in Resources */,
+				558B193D1B62727700183D72 /* background.png in Resources */,
+				558B19451B628BE800183D72 /* logo_ivan.png in Resources */,
+				558B19491B6292E100183D72 /* botonJugar.png in Resources */,
+				558B19241B626E0E00183D72 /* LaunchScreen.xib in Resources */,
+				558B193C1B62727700183D72 /* pig.png in Resources */,
+				558B19211B626E0E00183D72 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		558B19271B626E0E00183D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		558B190C1B626E0D00183D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558B191C1B626E0E00183D72 /* ViewController.m in Sources */,
+				558B19191B626E0E00183D72 /* AppDelegate.m in Sources */,
+				558B19161B626E0E00183D72 /* main.m in Sources */,
+				558B19431B6278D400183D72 /* Game.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		558B19251B626E0E00183D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558B19301B626E0E00183D72 /* Floating_PigTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		558B192B1B626E0E00183D72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 558B190F1B626E0D00183D72 /* Floating Pig */;
+			targetProxy = 558B192A1B626E0E00183D72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		558B191D1B626E0E00183D72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				558B191E1B626E0E00183D72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		558B19221B626E0E00183D72 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				558B19231B626E0E00183D72 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		558B19311B626E0E00183D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		558B19321B626E0E00183D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		558B19341B626E0E00183D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Floating Pig/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		558B19351B626E0E00183D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Floating Pig/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		558B19371B626E0E00183D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Floating PigTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Floating Pig.app/Floating Pig";
+			};
+			name = Debug;
+		};
+		558B19381B626E0E00183D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Floating PigTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Floating Pig.app/Floating Pig";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		558B190B1B626E0D00183D72 /* Build configuration list for PBXProject "Floating Pig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558B19311B626E0E00183D72 /* Debug */,
+				558B19321B626E0E00183D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		558B19331B626E0E00183D72 /* Build configuration list for PBXNativeTarget "Floating Pig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558B19341B626E0E00183D72 /* Debug */,
+				558B19351B626E0E00183D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		558B19361B626E0E00183D72 /* Build configuration list for PBXNativeTarget "Floating PigTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558B19371B626E0E00183D72 /* Debug */,
+				558B19381B626E0E00183D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 558B19081B626E0D00183D72 /* Project object */;
+}
